@@ -5,34 +5,35 @@ Braille Autocorrect and Suggestion System
 
  Table of Contents
 
-Overview
-Built Using
-Folder Structure
-Usage Documentation
-Get Started
-Native
-
-
-Tests
-Thinkerbell Labs Submission
-License
+*Overview
+*Built Using
+*Folder Structure
+*Usage Documentation
+*Get Started
+    *Native
+*Tests
+*License
 
  Overview 
 This project is a Python-based Braille Autocorrect and Suggestion System designed for Thinkerbell Labs. It allows visually impaired users to type in Braille using a QWERTY keyboard, where the keys D, W, Q, K, O, P represent Braille dots 1–6. The system converts these key sequences into English words, suggests corrections for typos, and supports Braille contractions like "the", "th", and "ing". It also includes a learning mechanism to improve suggestions over time by prioritizing frequently used words.
+
 The pipeline is simple but effective:
 
-Input: Users enter comma-separated key sequences (e.g., D,W,O,D,O for "he").
-Conversion: The system converts key sequences to Braille dots and then to English letters or contractions.
-Autocorrect: If the word isn’t in the dictionary (e.g., "hellz"), it suggests the closest match (e.g., "hello").
-Output: Displays the converted word and any suggestions.
+*Input: Users enter comma-separated key sequences (e.g., D,W,O,D,O for "he").
+*Conversion: The system converts key sequences to Braille dots and then to English letters or    contractions.
+*Autocorrect: If the word isn’t in the dictionary (e.g., "hellz"), it suggests the closest match (e.g., "hello").
+*Output: Displays the converted word and any suggestions.
 
 This project aims to make Braille typing more accessible by providing real-time error correction and suggestions, enhancing the user experience for visually impaired individuals.
+
+
  Built Using 
 
-  
+![6124995](https://github.com/user-attachments/assets/08555600-ed24-46d8-8632-db4b63bd8f20)
+
     
-    
-    
+![210414](https://github.com/user-attachments/assets/4d2b7185-b862-4a9a-8654-79ad0faecde3)
+
   
   
     Python
@@ -42,7 +43,9 @@ This project aims to make Braille typing more accessible by providing real-time 
 
 
  Folder Structure 
+ 
 Here’s the folder structure of the Braille Autocorrect project:
+
 BrailleAutoCorrectProject/
 ├── braille_autocorrect/
 │   ├── main.py             # Main script for user interaction
@@ -100,8 +103,22 @@ Ran 8 tests in 0.001s
 
 OK
 
+ Thinkerbell Labs Submission 
+ 
+This project was developed as a submission for Thinkerbell Labs’ coding challenge.
+
+Features Implemented:
+
+        Braille-to-English conversion using QWERTY keys.
+        
+        Autocorrect with Levenshtein distance.
+        
+        Support for contractions (e.g., W,O → "the").
+        
+        Learning mechanism to prioritize frequent suggestions.
+
+
  License 
 This project is licensed under the MIT License. See the LICENSE file for more information (if a repository is created).
 
     © 2025 Vinay S.
-
