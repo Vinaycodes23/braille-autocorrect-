@@ -6,12 +6,19 @@ Braille Autocorrect and Suggestion System
  Table of Contents
 
 *Overview
+
 *Built Using
+
 *Folder Structure
+
 *Usage Documentation
+
 *Get Started
-    *Native
+
+ *Native
+
 *Tests
+
 *License
 
  Overview 
