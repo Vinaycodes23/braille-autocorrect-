@@ -19,10 +19,10 @@ This project is a Python-based Braille Autocorrect and Suggestion System designe
 
 The pipeline is simple but effective:
 
-    *Input: Users enter comma-separated key sequences (e.g., D,W,O,D,O for "he").
-    *Conversion: The system converts key sequences to Braille dots and then to English letters or    contractions.
-    *Autocorrect: If the word isn’t in the dictionary (e.g., "hellz"), it suggests the closest match (e.g., "hello").
-    *Output: Displays the converted word and any suggestions.
+*Input: Users enter comma-separated key sequences (e.g., D,W,O,D,O for "he").
+*Conversion: The system converts key sequences to Braille dots and then to English letters or    contractions.
+*Autocorrect: If the word isn’t in the dictionary (e.g., "hellz"), it suggests the closest match (e.g., "hello").
+*Output: Displays the converted word and any suggestions.
 
 This project aims to make Braille typing more accessible by providing real-time error correction and suggestions, enhancing the user experience for visually impaired individuals.
 
@@ -115,13 +115,13 @@ Expected output:
 
 Features Implemented:
 
-        Braille-to-English conversion using QWERTY keys.
-        
-        Autocorrect with Levenshtein distance.
-        
-        Support for contractions (e.g., W,O → "the").
-        
-        Learning mechanism to prioritize frequent suggestions.
+Braille-to-English conversion using QWERTY keys.
+
+Autocorrect with Levenshtein distance.
+
+Support for contractions (e.g., W,O → "the").
+
+Learning mechanism to prioritize frequent suggestions.
 
 
  License 
