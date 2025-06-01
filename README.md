@@ -17,7 +17,6 @@ Tests
 Thinkerbell Labs Submission
 License
 
-
  Overview 
 This project is a Python-based Braille Autocorrect and Suggestion System designed for Thinkerbell Labs. It allows visually impaired users to type in Braille using a QWERTY keyboard, where the keys D, W, Q, K, O, P represent Braille dots 1–6. The system converts these key sequences into English words, suggests corrections for typos, and supports Braille contractions like "the", "th", and "ing". It also includes a learning mechanism to improve suggestions over time by prioritizing frequently used words.
 The pipeline is simple but effective:
@@ -28,7 +27,6 @@ Autocorrect: If the word isn’t in the dictionary (e.g., "hellz"), it suggests 
 Output: Displays the converted word and any suggestions.
 
 This project aims to make Braille typing more accessible by providing real-time error correction and suggestions, enhancing the user experience for visually impaired individuals.
-
  Built Using 
 
   
@@ -41,7 +39,6 @@ This project aims to make Braille typing more accessible by providing real-time 
     unittest
     python-Levenshtein
   
-
 
 
  Folder Structure 
@@ -60,7 +57,6 @@ BrailleAutoCorrectProject/
 └── ...                     # Other project files
 
 This structure keeps all the core functionality in the braille_autocorrect/ directory, making it easy to manage and run.
-
  Usage Documentation 
 The project is a command-line application. To use it:
 
@@ -70,22 +66,16 @@ The program will output the parsed letters, the converted word, and any suggesti
 Type exit to quit.
 
 Detailed examples are provided in the Get Started section below.
-
  Get Started 
-
  Native 
-
 Navigate to the Project Directory  
 cd /Users/vinaysproperty/BrailleAutoCorrectProject/braille_autocorrect
-
 
 Activate the Virtual EnvironmentIf not already activated:  
 source /Users/vinaysproperty/BrailleAutoCorrectProject/venv/bin/activate
 
-
 Install DependenciesThe project uses python-Levenshtein for autocorrect:  
 pip install python-Levenshtein
-
 
 Run the Application  
 python3 main.py
@@ -94,54 +84,24 @@ python3 main.py
 Follow the prompt to enter a key sequence.
 Example: Enter D,W,O,D,O,D,W,Q,D,W,Q,D,Q,O to type "hello".
 
-
 Run Tests (Optional)To verify the system works:  
-python3 test_correct
-
-Tests
-
-The project includes unit tests to ensure reliability.
-
-
-
-
-
-Run All Tests
-From the braille_autocorrect/ directory:
-
 python3 test_corrector.py
 
-
-
-
+ Tests 
+The project includes unit tests to ensure reliability.
+Run All TestsFrom the braille_autocorrect/ directory:  
+python3 test_corrector.py
 
 This runs 8 tests covering conversion, autocorrect, contractions, and error handling.
-
-
-
 Expected output:
-
 ........
 ----------------------------------------------------------------------
 Ran 8 tests in 0.001s
 
 OK
 
-
-Features Implemented:
-
-* Braille-to-English conversion using QWERTY keys.
-* Autocorrect with Levenshtein distance.
-* Support for contractions (e.g., W,O → "the").
-* Learning mechanism to prioritize frequent suggestions.
-
-
-
-License
-
+ License 
 This project is licensed under the MIT License. See the LICENSE file for more information (if a repository is created).
 
- © 2025 Vinay .
-
-
+    © 2025 Vinay S.
 
